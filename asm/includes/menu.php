@@ -18,7 +18,7 @@
         </div>
         <div class="right-area">
             <div class="nav-search">
-                <form class="search" action="/search">
+                <form class="search" action="search.php" method="GET">
                     <input type="text" name="txtsearch" class="search-box" placeholder="Enter your keyword ...">
                     <button class="search-submit" type="submit">
                         <i class="fa fa-search" aria-hidden="true"></i>
@@ -40,13 +40,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/contact">
+                    <a href="#">
                         <img src="img/m-support.png" alt="support" class="img">
                         <span>Support</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/blogs/news">
+                    <a href="#">
                         <img src="img/m-blog.png" alt="blog" class="img">
                         <span>Blog</span>
                     </a>
@@ -65,13 +65,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/contact">
+                    <a href="#">
                         <img src="img/m-contact.png" alt="Contact" class="img">
                         <span>Contact</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="upload.php">
+                    <a href="/asm/upload/table.php">
                         <img src="img/m-faq.png" alt="Upload" class="img">
                         <span>Upload</span>
                     </a>

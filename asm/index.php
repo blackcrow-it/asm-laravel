@@ -33,9 +33,9 @@
               mysqli_stmt_execute($stmt);
               $result = mysqli_stmt_get_result($stmt);
 				$rowCount = mysqli_num_rows($result);
-				echo '<div class="total-shows">Showing: '.$rowCount.'</div>';
+				// echo '<div class="total-shows">Showing: '.$rowCount.'</div>';
               while ($row = mysqli_fetch_assoc($result)) {
-                echo '<div><a href="#">
+                echo '<div><a href="flowers.php?id='.$row["id"].'">
                   <div style="background-image: url(upload/up/'.$row["img"].');"></div>
                   <h3>'.$row["name"].'</h3>
                   <p>'.$row["price"].' vnd</p>
@@ -48,7 +48,7 @@
 
     </main>
 	<div class="wrapper">
-<footer>
+<!-- <footer>
             <ul class="footer-links-main">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -73,7 +73,7 @@
                     <img src="img/facebook-logo-button.png" alt="youtube icon">
                 </a>
             </div>
-        </footer>
+        </footer> -->
     </div>
   </body>
 </html>
