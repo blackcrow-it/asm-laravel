@@ -11,7 +11,7 @@ include "upload/config.php";
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Flower Shop</title>
+<title>Flower</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
